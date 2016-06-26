@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Petgram</string>
+    <string name="name_pet1">Gordi</string>
+    <string name="rate_pet1">5</string>
 </resources>
