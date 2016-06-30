@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FragmentPerfil"
+    android:orientation="vertical">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/recurso_5"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        android:layout_gravity="center|top"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_pet"
+        android:text="@string/name_pet1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_margin="10dp"/>
+
+   <!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMascotas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+    </android.support.v7.widget.RecyclerView>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+        <include android:id="@+id/imagen1"
+            layout="@layout/cardview_perfil_images"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

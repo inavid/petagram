@@ -1,4 +1,4 @@
-package com.dfuentes.petgram;
+package com.dfuentes.petgram.Pojo;
 
 /**
  * Created by inavid on 24/06/16.

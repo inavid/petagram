@@ -8,7 +8,8 @@
     android:background="@color/colorPrimary"
     android:elevation="@dimen/appbar_elevation"
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:layout_scrollFlags="scroll|enterAlways">
 
     <ImageView
         android:layout_width="30dp"
@@ -34,5 +35,7 @@
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:onClick="irFavoritos"
         />
+
+
 
 </android.support.v7.widget.Toolbar>
