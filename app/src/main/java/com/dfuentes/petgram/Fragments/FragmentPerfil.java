@@ -67,9 +67,9 @@ public class FragmentPerfil extends Fragment {
     public void inicializaMascotas(){
         mascotas  = new ArrayList<Mascotas>();
 
-        mascotas.add(new Mascotas("1", R.drawable.recurso_5, "1"));
-        mascotas.add(new Mascotas("2", R.drawable.recurso_5, "0"));
-        mascotas.add(new Mascotas("3", R.drawable.recurso_5, "2"));
+        mascotas.add(new Mascotas("1", R.drawable.recurso_5, 1));
+        mascotas.add(new Mascotas("2", R.drawable.recurso_5, 0));
+        mascotas.add(new Mascotas("3", R.drawable.recurso_5, 2));
 
     }
 

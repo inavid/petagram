@@ -5,14 +5,19 @@ package com.dfuentes.petgram.Pojo;
  */
 public class Mascotas {
 
+    private int id;
     private String Nombre;
     private int Foto;
-    private String Rate;
+    private int Rate = 0;
 
-    public Mascotas(String nombre, int foto, String rate) {
+    public Mascotas(String nombre, int foto, int rate) {
         this.Nombre = nombre;
         this.Foto = foto;
         this.Rate = rate;
+    }
+
+    public Mascotas() {
+
     }
 
     public String getNombre() {
@@ -31,11 +36,19 @@ public class Mascotas {
         Foto = foto;
     }
 
-    public String getRate() {
+    public int getRate() {
         return Rate;
     }
 
-    public void setRate(String rate) {
+    public void setRate(int rate) {
         Rate = rate;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
